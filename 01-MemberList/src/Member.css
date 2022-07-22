@@ -1,0 +1,64 @@
+.MemberProfile {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: #fff;
+    padding: 5%;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.memberImg img {
+    width: 60px;
+    border-radius: 50%;
+    height: 59px;
+    object-fit: cover;
+}
+.Card {
+    width: 30%;
+    background: #fff !important;
+    padding: 20px;
+    margin: 5% auto;
+}
+
+.about-bio {
+    width: 100%;
+    text-transform: capitalize;
+    margin-left: 5%;
+    font-size: 17px;
+}
+
+.MemberProfile:last-child {
+      border: none !important;
+}
+
+.clearButton {
+    width: 100%;
+    background: #778899;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.clearButton:hover {
+   cursor: pointer;
+}
+
+.itemButton {
+    background: #000000;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    transition: all .5s;
+    border: 1px solid #000000;
+}
+.itemButton:hover {
+    background: none;
+    border: 1px solid #000000;
+    transform: scale(0.9);
+    color: #000;
+    transition: all .5s;
+    cursor: pointer;
+}
+

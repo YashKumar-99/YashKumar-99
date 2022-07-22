@@ -1,0 +1,37 @@
+.TourContainer {
+    max-width: 50%;
+    margin: auto;
+}
+.TourCard {
+    margin-bottom: 50px;
+    background: #fff;
+    padding: 5%;
+}
+
+
+.TourCard img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.TourTitle{
+    text-align: center;
+}
+
+.showHide {
+    background: none;
+    outline: none;
+    border: none;
+    color: #053ff4;
+}
+
+.RemoveItemButton {
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgrey;
+    color: #000000;
+}

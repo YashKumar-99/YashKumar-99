@@ -1,0 +1,15 @@
+.queryQuestion {
+    margin: 10px 10px;
+}
+.queryAnswer {
+    margin: 0px 10px;
+}
+
+.faqSection {
+    background: #fff;
+}
+.faqSection p {
+    font-size: 16px;
+    color: #333333;
+}
+

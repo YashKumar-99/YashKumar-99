@@ -1,0 +1,56 @@
+.fullSliderCard {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 20px;
+}
+.fullSliderCard img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+
+ }
+
+ .reviewHeading{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+ }
+
+ .randomButton {
+    text-align: center;
+}
+
+.randomButton button {
+    background: lightgrey;
+    border: none;
+    padding: 10px 50px;
+    color: #333;
+    outline: 1px solid #000000;
+    cursor: pointer;
+}
+
+.buttons button {
+    background: none;
+    outline: 1px solid lightgrey;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.buttons button:hover {
+    background: lightgrey;
+    outline: none;
+    transition: all .5s;
+
+   
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
